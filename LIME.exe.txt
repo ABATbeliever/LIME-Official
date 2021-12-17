@@ -1,0 +1,21 @@
+@echo off
+title LINE `Official`
+echo  V¿ ÈQÈ 
+echo @¼Ü(@¥ƒÖ¥) 
+echo @@__‚ÁÜ/Üc 
+echo @@@@Ü Ü
+echo.
+goto l1
+
+:l1
+set ra=%random%
+set tweet=%ra%
+goto l2
+
+:l2
+set /p tweet="tweet:"
+if %tweet% == %ra% (goto l1)
+echo.
+echo ^>^>^>^>^>%tweet%
+echo.
+goto l1
